@@ -1,2 +1,2 @@
-# algo-diary
-A collection of various algorithm challenge solutions. 
+# Algorithm Diary
+A collection of algorithm challenge solutions. 
