@@ -65,7 +65,7 @@ jobs:
       - name: Check GitHub/GitLab Diff
         id: diffcheck
         run: |
-          GH_SHA=$(git rev-parse origin/prod)
+          GH_SHA=$(git rev-parse origin/main)
           GL_SHA=$(git rev-parse FETCH_HEAD || echo "missing")
           echo "GitHub SHA: $GH_SHA"
           echo "GitLab SHA: $GL_SHA"
